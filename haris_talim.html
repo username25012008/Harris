@@ -5,131 +5,128 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Haris Ta'lim</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-        rel="stylesheet">
     <link rel="shortcut icon" href="./assets/Haris-ta'lim-logo 1.png" type="image/x-icon">
-    <link rel="stylesheet" href="./style/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body>
-    <nav>
-        <div class="all_nav container">
-            <div class="nav  flex justify align">
-                <div class="logo flex align">
-                    <img src="./assets/Haris-ta'lim-logo 1.png" alt="logo">
-                    <h1>Haris <br>Ta'lim</h1>
-                </div>
-                <ul class="menu flex justify align">
-                    <li>Asosiy</li>
-                    <li>Biz haqimizda</li>
-                    <li>Kurslar</li>
-                    <li>Tariflar</li>
-                    <li>Biz bilan bog`lanish</li>
-                </ul>
-                <button class="nav_btn">Kirish</button>
+    <nav class="sticky top-0 bg-white">
+        <div class="flex justify-between  w-[90%] mx-auto items-center pt-5 pb-5 ">
+            <div class="logo">
+                <img src="./assets/Group 196.png" alt="logo">
             </div>
+            <ul class="flex justify-between gap-24">
+                <li class="py-2.5 text-lg text-[#9E9E9E] font-medium hover:text-black font-semibold ease-linear duration-300">Asosiy </li>
+                <li class="py-2.5 text-lg text-[#9E9E9E] font-medium hover:text-black font-semibold ease-linear duration-300">Biz haqimizda</li>
+                <li class="py-2.5 text-lg text-[#9E9E9E] font-medium hover:text-black font-semibold ease-linear duration-300">Kurslar</li>
+                <li class="py-2.5 text-lg text-[#9E9E9E] font-medium hover:text-black font-semibold ease-linear duration-300">Tariflar</li>
+                <li class="py-2.5 text-lg text-[#9E9E9E] font-medium hover:text-black font-semibold ease-linear duration-300">Biz bilan bog`lanish</li>
+            </ul>
+            <button class="bg-[#1D75F9] py-2.5 px-16 rounded-2xl text-white font-semibold">Kirish</button>
         </div>
     </nav>
+
     <header>
-        <div class="all_head container ">
-            <div class="head flex container">
-                <div class="head_flex">
-                    <h1>Ilm bir yodlash, <br>
+        <div class="w-[90%] mx-auto items-center">
+            <div class="flex justify-between bg-[#F9B21D] items-center rounded-[48px] py-[170px] px-[58px] text-white">
+                <div class="w-[39%]">
+                    <h1 class="font-extrabold text-5xl">Ilm bir yodlash, <br>
                         Ming takrorlashdir</h1>
-                    <button class="head_btn">Kirish</button>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <button class="bg-[#1D75F9] mt-14 py-2.5 px-16 rounded-2xl text-white font-semibold">Kirish</button>
+                    <p class="text-3xl mt-6">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 </div>
-                <div class="head_flex_two">
+                <div class="w-[59%]">
                     <img src="./assets/ramadan-saudi-arabia-islamic-background 1.png" alt="">
                 </div>
             </div>
         </div>
     </header>
     <section>
-        <div class="all_section_biz container">
-            <div class="biz_info">
-                <div class="title">
-                    <h1>Biz haqimizda</h1>
-                    <p>2022-yil 2-noyabrda o`z faoliyatini rasmiy tarzda online boshlagan</p>
+        <div class="w-[90%] mx-auto">
+            <div class="text-center mt-24">
+                <div class="text-black">
+                    <h1 class="font-extrabold text-6xl">Biz haqimizda</h1>
+                    <p class="mt-6 text-3xl">2022-yil 2-noyabrda o`z faoliyatini rasmiy tarzda online boshlagan</p>
                 </div>
-                <div class="biz_flex flex justify align">
-                    <button class="biz_btn">Online kurslar</button>
-                    <button class="biz_btn">Offline kurslar</button>
+                <div class="flex mt-14 text-5xl justify-between items-center">
+                    <button class="w-[48%] bg-[#1D75F9] rounded-3xl font-extrabold text-white py-[58px]">Online kurslar</button>
+                    <button class="w-[48%] bg-[#1D75F9] rounded-3xl font-extrabold text-white py-[58px]">Offline kurslar</button>
                 </div>
             </div>
-            <div class="ustoz_info">
-                <div class="ustoz_title">
-                    <h1>Ustozlar</h1>
-                    <p>B2 va C1 sertifikatiga ega. Maxsus metod asosida dars berishadi</p>
+            <div class="rounded-3xl text-center mt-24 px-24 py-24 bg-[#C6F25D] text-black">
+                <div>
+                    <h1 class="text-5xl font-extrabold">Ustozlar</h1>
+                    <p class="text-4xl font-medium mt-6">B2 va C1 sertifikatiga ega. Maxsus metod asosida dars berishadi</p>
                 </div>
-                <img src="./assets/ustoz.png" alt="">
-                <div class="ustoz_title">
-                    <h1>Turdiyev Sheroz</h1>
-                    <p>Ko`kaldosh madrasasi bitiruvchisi. “Ali Ibn Tolib” jome masjidi noibi, <br>
+                <img class="w-[340px] h-[326px] my-14 mx-auto" src="./assets/ustoz.png" alt="">
+                <div>
+                    <h1 class="text-5xl font-extrabold">Turdiyev Sheroz</h1>
+                    <p class=" text-4xl mt-6 font-medium">Ko`kaldosh madrasasi bitiruvchisi. “Ali Ibn Tolib” <br>
                         10 yillik boshlang`ich arab tili tajribasiga ega. <br>
                         “Haris Talim” o`quv markazi asoschisi</p>
                 </div>
             </div>
-            <div class="info flex justify align">
-                <div class="info_flex">
-                    <h1>O`quv kursi kimlar uchun</h1>
-                    <div class="info_im flex">
-                        <div class="info_title">
-                            <h1>0 dan arab harf <br>
-                            o`rganmoqchilar</h1>
-                            <p>1-marotaba boshlang`ich Arab tili <br>
-                            o`rganmoqchi bo`lsangiz</p>
+            <div class="flex justify-between rounded-3xl bg-[#1D75F9] mt-24 py-12 px-24">
+                <div>
+                    <h1 class="text-6xl font-extrabold text-white">O`quv kursi kimlar uchun</h1>
+                    <div class="flex justify-between">
+                        <div class=" w-[48%]">
+                            <h1 class="text-3xl text-center text-[#1D75F9] py-9 px-14 rounded-2xl mt-14 font-bold bg-white">0 dan arab harf <br>
+                                o`rganmoqchilar</h1>
+                            <p class="text-white text-left text-2xl mt-5 font-medium">1-marotaba boshlang`ich Arab tili <br>
+                                o`rganmoqchi bo`lsangiz</p>
                         </div>
-                        <div class="info_title">
-                            <h1>Arab harflarini <br>
-                            taniydiganlar</h1>
-                            <p>Harflarni o`qiy olsangiz, lekin qoniqmasangiz, <br>
-                            ma`lumot bor, amalda qo`llay olmasangiz
+                        <div class=" w-[48%]">
+                            <h1 class="text-3xl text-center text-[#1D75F9] py-9 px-14 rounded-2xl mt-14 font-bold bg-white">Arab harflarini <br>
+                                taniydiganlar</h1>
+                            <p class="text-white text-left text-2xl mt-5 font-medium">Harflarni o`qiy olsangiz, <br>
+                                ma`lumot bor, amalda qo`llay olmasangiz
                             </p>
                         </div>
                     </div>
                 </div>
-                <div class="info_flex_two">
-                    <!-- Qolda yasalgani
-                    <h1>?</h1> -->
+                <div>
                     <img src="./assets/Vector.png" alt="">
                 </div>
             </div>
-            <div class="afzallik">
-                <div class="title afz_text">
-                    <h1>Afzalliklari</h1>
+            <div class="mb-24">
+                <div class=" mt-24">
+                    <h1 class="text-5xl font-extrabold text-black text-center">Afzalliklari</h1>
                 </div>
-                <div class="afzal flex align justify">
-                    <div class="afz flex align">
-                        <h1>1</h1>
-                        <p>Arab harflarini chuqurlashtirilgan <br> tartibda o`zlashtirish</p>
+                <div class="flex-wrap flex align justify">
+                    <div class="w-[48%] mt-14 gap-12 flex items-center">
+                        <div class="bg-[#C6F25D] rounded-2xl w-[100px] h-[100px] flex items-center justify-center">
+                        <h1 class=" text-[40px] font-extrabold text-black">1</h1></div>
+                        <p class="text-3xl font-medium text-black">Arab harflarini chuqurlashtirilgan <br> tartibda o`zlashtirish</p>
                     </div>
-                    <div class="afz flex align">
-                        <h1>2</h1>
-                        <p>Bir darsni takror va tkror <br>
-                             ko`rishlik imkoiyati</p>
+                    <div class="w-[48%] mt-14 gap-12 flex items-center">
+                        <div class="bg-[#C6F25D] rounded-2xl w-[100px] h-[100px] flex items-center justify-center">
+                        <h1 class=" text-[40px] font-extrabold text-black">2</h1></div>
+                        <p class="text-3xl font-medium text-black">Bir darsni takror va tkror <br>
+                            ko`rishlik imkoiyati</p>
                     </div>
-                    <div class="afz flex align">
-                        <h1>3</h1>
-                        <p>3
+                    <div class="w-[48%] mt-14 gap-12 flex items-center">
+                        <div class="bg-[#C6F25D] rounded-2xl w-[100px] h-[100px] flex items-center justify-center">
+                        <h1 class=" text-[40px] font-extrabold text-black">3</h1></div>
+                        <p class="text-3xl font-medium text-black">3
                             Yangi metodlarda sifatli va oson <br> o`rganish</p>
                     </div>
-                    <div class="afz flex align">
-                        <h1>4</h1>
-                        <p>Har bir darsda o`rganganlaringiz <br> nazrati</p>
+                    <div class="w-[48%] mt-14 gap-12 flex items-center">
+                        <div class="bg-[#C6F25D] rounded-2xl w-[100px] h-[100px] flex items-center justify-center">
+                        <h1 class=" text-[40px] font-extrabold text-black">4</h1></div>
+                        <p class="text-3xl font-medium text-black">Har bir darsda o`rganganlaringiz <br> nazrati</p>
                     </div>
-                    <div class="afz flex align">
-                        <h1>5</h1>
-                        <p>Arabiy kitobni ravon o`qish, <br>
+                    <div class="w-[48%] mt-14 gap-12 flex items-center">
+                        <div class="bg-[#C6F25D] rounded-2xl w-[100px] h-[100px] flex items-center justify-center">
+                        <h1 class=" text-[40px] font-extrabold text-black">5</h1></div>
+                        <p class="text-3xl font-medium text-black">Arabiy kitobni ravon o`qish, <br>
                             o`zingizga va atrofdagilarga <br>
-                             yoqimli eshitilishi</p>
+                            yoqimli eshitilishi</p>
                     </div>
-                    <div class="afz flex align">
-                        <h1>6</h1>
-                        <p>Tinglab xato yoki  <br>
+                    <div class="w-[48%] mt-14 gap-12 flex items-center">
+                        <div class="bg-[#C6F25D] rounded-2xl w-[100px] h-[100px] flex items-center justify-center">
+                        <h1 class=" text-[40px] font-extrabold text-black">6</h1></div>
+                        <p class="text-3xl font-medium text-black">Tinglab xato yoki <br>
                             bexato ekanini farqlay olish</p>
                     </div>
                 </div>
